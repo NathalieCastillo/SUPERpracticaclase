@@ -1,0 +1,91 @@
+body{
+    font-family: sans-serif;
+    padding: 2rem;
+    background-color: rgb(164, 214, 234);
+}
+/*SE COLOCA UN PUNTO CUANDO SE HACE REFERENCIA A UNA CLASE DE HTML*/
+.titulo-lista{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color:rgb(255, 0, 0)
+}
+/*SE COLOCA EL SIMBOLO NUMERAL CUANDI SE HACE REFERCIA A U ID*/
+#input-lista{
+    padding: 0.8rem;
+    width: 90%;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#boton-agregar {
+    padding: 0.5rem;
+    width: 30%;  
+    background-color: rgb(38, 207, 38);
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+
+}
+
+.Lista-agregar-lista{
+    display: flex;
+    gap: 1rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.Lista-contenedor{
+    color:rgb(1, 20, 146);
+    width: 768px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 auto;
+
+}
+
+#lista-super {
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-item{
+    list-style: none;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000005;
+
+}
+
+.lista-item > span {
+    font-family: 'Franklin Gothic Medium';
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.lista-item > button{
+    color:red;
+    margin: right 1rem; 
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
